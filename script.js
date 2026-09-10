@@ -6,15 +6,15 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "O cyberbullying é a violência virtual que ocorre geralmente com as pessoas tímidas e indefesas, ou simplesmente por não caírem na simpatia das mesmas. Como podemos evitá-lo",
+        enunciado: "Qual dessas atitudes você considera mais importante para melhorar a saúde pública?",
         alternativas: [
             {
-                texto: "Utilizando palestras para prevenir o cyberbullying nas escolas.",
-                afirmacao: "Você é uma pessoa reflexiva e busca aprendizado e conhecimento."
+                texto: "Fortalecer o atendimento nos hospitais e postos de saúde, garantindo acesso rápido e de qualidade para toda a população.",
+                afirmacao: "Você é uma pessoa cuidadora e solidária, que acredita que a saúde deve estar disponível para todos, principalmente para quem mais precisa."
             },
             {
-                texto:  "Prestando atenção aos sinais de cyberbullying nas escolas.",
-                afirmacao: "Você é uma pessoa observadora, pois se preocupa com o bem estar dos seus alunos."
+                texto:  "Investir na prevenção e na educação em saúde, incentivando vacinação, alimentação saudável, higiene e hábitos de vida mais saudáveis.",
+                afirmacao: "Você é uma pessoa preventiva e consciente, que acredita que evitar doenças e promover qualidade de vida é tão importante quanto tratar problemas de saúde."
             }    
            
         ]
