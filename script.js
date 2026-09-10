@@ -21,31 +21,31 @@ const perguntas = [
     },
     {
        
-            enunciado: "As fontes renováveis de energia são aquelas formas de produção de energia em que suas fontes são capazes de manter-se disponíveis durante um longo prazo, contando com recursos que se regeneram ou que se mantêm ativos permanentemente. Com base nisso, temos a energia geotérmica, que consiste em utilizar o calor manifestado em áreas próximas à superfície. Qual a sua opinião sobre esse modelo de energia renovável?",
+            enunciado: "Como você acha que a sociedade pode contribuir para fortalecer a saúde pública?",
             alternativas: [
                 {
-                    texto: "A energia geotérmica precisa ser mais explorada visto que utiliza o calor interno da terra, pois não depende do clima e é inesgotável.",
-                    afirmacao: "Você demonstra um perfil  de pesquisador e inovador que busca por meio da inovação soluções para o meio ambiente e sustentabilidade das gerações posteriores."
+                    texto: "Participando de campanhas e ações comunitárias de saúde.",
+                    afirmacao: "Você é uma pessoa participativa e comunitária, que gosta de colaborar e acredita que a união pode transformar a realidade."
                 },
                 {
-                    texto:  "Seria interessante explorar primeiramente fontes renováveis exotérmicas, em segundo plano utilizar a energia geotérmica apesar dos custos elevados de explorações e possibilidades de contaminação de rios. ",
-                    afirmacao: "Você é uma pessoa que dá ênfase em priorizar os recursos disponíveis, pensando no meio ambiente e sem descartar o viés econômico."
+                    texto:  "Adotando atitudes responsáveis no dia a dia, como manter a higiene, respeitar orientações de saúde e cuidar do ambiente.",
+                    afirmacao: "Você é uma pessoa responsável e cuidadosa, que entende que a saúde pública também depende das escolhas e atitudes de cada indivíduo."
                 }    
                
             ]
         },
         {
-            enunciado: "Hoje em dia é cada vez mais importante conhecer o seu corpo, suas qualidades, suas limitações e entender suas emoções. Saber controlá-las é o desafio das pessoas. A sua auto-estima impacta a sua qualidade de vida?",
+            enunciado: "Qual atitude você considera mais importante para uma população mais saudável?",
 
             alternativas: [
                 {
-                    texto: "Na maior parte do tempo, com certeza impacta, pois é a partir da autoestima que temos um olhar positivo ou negativo sobre nossas ações diárias. Sempre estou em busca de mais autoconhecimento.",
-                    afirmacao: "Você tem consciência que é importante ter uma boa auto-estima e procura se aprofundar mais sobre o assunto, vendo a vida de um jeito positivo."
+                    texto: "Incentivar hábitos de vida saudáveis, como alimentação equilibrada e prática de atividades físicas.",
+                    afirmacao: "Você é uma pessoa disciplinada e motivadora, que acredita que pequenas mudanças de hábitos podem gerar grandes benefícios."
                 },
                 {
-                    texto:    "Apenas ocasionalmente ou raramente. Às vezes minha autoestima oscila e isso pode afetar negativamente minha qualidade de vida em certas ocasiões.",
+                    texto:    "Ampliar o acesso à informação sobre saúde, ensinando a população a identificar riscos e cuidar melhor de si.",
                
-                    afirmacao: "Você demomostra que precisa se conhecer mais e mostra uma consciência de uma crescente necessidade de cuidar mais da própria percepção e bem-estar emocional."
+                    afirmacao: "Você é uma pessoa informada e responsável, que acredita que conhecimento é uma ferramenta importante para melhorar a saúde de todos."
                 }    
                
             ]
