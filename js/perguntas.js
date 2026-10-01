@@ -20,7 +20,6 @@ export const perguntas = [
         ]
     },
     {
-       
             enunciado: "Como você acha que a sociedade pode contribuir para fortalecer a saúde pública?",
             alternativas: [
                 {
