@@ -42,7 +42,6 @@ export const perguntas = [
         },
         {
             enunciado: "Qual atitude você considera mais importante para uma população mais saudável?",
-
             alternativas: [
                 {
                     texto: "Incentivar hábitos de vida saudáveis, como alimentação equilibrada e prática de atividades físicas.",
