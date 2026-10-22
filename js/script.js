@@ -53,10 +53,8 @@ function jogaNovamente() {
     mostraPergunta();
 }
 
-// Ouvinte de evento configurado no escopo global para o botão jogar novamente
 if (botaoJogarNovamente) {
     botaoJogarNovamente.addEventListener("click", jogaNovamente);
 }
 
-// Inicializa a primeira pergunta
 mostraPergunta();
