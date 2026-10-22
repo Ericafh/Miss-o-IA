@@ -1,5 +1,6 @@
-import {aleatorio} from './aleatorio.js';
-import {perguntas} from './perguntas.js';
+import { aleatorio } from './aleatorio.js';
+import { perguntas } from './perguntas.js';
+
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -11,8 +12,8 @@ let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
 
-function mostraPergunta(){
-    if(atual >= perguntas.length){
+function mostraPergunta() {
+    if (atual >= perguntas.length) {
         mostraResultado();
         return;
     }
@@ -21,34 +22,41 @@ function mostraPergunta(){
     caixaAlternativas.textContent = "";
     mostraAlternativas();
 }
-function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativas){
+
+function mostraAlternativas() {
+    for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement("button");
         botaoAlternativas.textContent = alternativa.texto;
         botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
         caixaAlternativas.appendChild(botaoAlternativas);
     }
-
 }
+
 function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
-    atual++
+    atual++;
     mostraPergunta();
 }
 
-function mostraResultado(){
+function mostraResultado() {
     caixaPerguntas.textContent = "Olha só o que podemos afirmar sobre você...";
-    textoResultado.textContent = historiaFinal;
+    textoResultado.textContent = historiaFinal.trim();
     caixaAlternativas.textContent = "";
     caixaResultado.classList.add("mostrar");
-    botaoJogarNovamente.addEventListener("click", jogaNovamente);
 }
 
-function jogaNovamente(){
+function jogaNovamente() {
     atual = 0;
     historiaFinal = "";
     caixaResultado.classList.remove("mostrar");
     mostraPergunta();
 }
+
+// Ouvinte de evento configurado no escopo global para o botão jogar novamente
+if (botaoJogarNovamente) {
+    botaoJogarNovamente.addEventListener("click", jogaNovamente);
+}
+
+// Inicializa a primeira pergunta
 mostraPergunta();
